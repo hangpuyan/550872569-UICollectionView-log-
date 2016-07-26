@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  TableViewAutoHeight
+//
+//  Created by liu David on 16/7/19.
+//  Copyright © 2016年 Yan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#import  "ViewController.h"
+#import "AutoHeightCell.h"
+#import "TheBugCell.h"
+
+#define VGScreenW [UIScreen mainScreen].bounds.size.width
+#define VGScreenH [UIScreen mainScreen].bounds.size.height
+#define kSpaceTop 10
+#define kSpaceLeft 10
+#define kSpaceRight 10
+#define kSpaceBottom 10
+#define kViewGaryHeight 5
+#define kIMAGEVIEWW (VGScreenW - 40)/3
+
+
+
+
+#endif /* PrefixHeader_pch */
